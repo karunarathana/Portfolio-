@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.main_wrapper{
+    /* width: 90%;
+    margin: 0 auto; */
+}
+.m_01_first{
+    height: 100vh;
+}
+
+/* This is header section css code */
+.navigation_bar{
+    width: 90%;
+    margin: 0 auto;
+    position: sticky;
+    top: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_element{
+    display: flex;
+    gap: 15px;
+}
+.nav_element a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+.resum_download_btn{
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+    align-items: center;
+    background-color: black;
+    padding: 8px;
+}
+.resum_download_btn p{
+    color:rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+#menu_m02{
+    display: none;
+}
+
+/* End header section css code */
+
+/* This is hero section css code */
+#m01{
+    color: rgb(191, 118, 23);
+}
+.hero_section_main_wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 50px;
+}
+.hero_left_wrapper{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.hero_left_wrapper_top_elemetn h2{
+    font-size: 2.6rem;
+    color: rgb(0, 0, 0);
+}
+.hero_left_wrapper_middle_element{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: rgb(115, 110, 110);
+}
+.hero_right_wrapper{
+    width: 50%;
+    min-width: 25em;
+    /* background: url("Assert/Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.hero_left_wrapper_social_media_icon{
+    display: flex;
+    gap: 20px;
+}
+.hero_left_wrapper_social_media_icon_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(53, 52, 52);
+    width: 3em;
+    height: 3em;
+}
+/* End hero section css code */
+
+/* This is MySkill section css code */
+.myskills{
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+#heder_01{
+    color: rgb(99, 99, 101);
+}
+.myskills_header{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill_item_first_line{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.skill_items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(41, 40, 40);
+    height: 10em;
+    width: 10em;
+}
+.skill_items p{
+    font-size: 1.4rem;
+    color: rgb(99, 97, 94);
+    font-weight: bold;
+}
+.skill_anonumus{
+    display: none;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+/* End MySkill section css code */
+
+
+/* This is abouth_me section css code */
+.abouth_me{
+    margin-top: 50px;
+}
+.abouth_me_flex_main_wrapper{
+    margin-top: 30px;
+    background-color: rgb(176, 170, 170);
+    display: flex;
+    height: 30em;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+.abouth_me_left_wrapper{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.abouth_me_right_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.abouth_me_right_wrapper h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.abouth_me_right_wrapper p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+/* End abouth_me section css code */
+
+
+/* This is My_project section css code */
+.project_main_wrapper{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    height: 25em;
+    border-bottom: 2px solid rgb(40, 37, 37);
+    margin-bottom: 20px;
+}
+.project_items_left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project_items_right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description_project_items h3{
+    font-size: 2.5rem;
+}
+.description_project_items h4{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+.description_project_items p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 1.3rem;
+    color: rgb(95, 92, 88);
+}
+.description_project_items_btn{
+    margin-top: 20px;
+}
+.description_project_items_btn button{
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+    width: 7.5em;
+    height: 3em;
+    border: none;
+    border-radius: 30px;
+}
+.description_project_items_btn button:first-child{
+    background-color: rgb(73, 76, 76);
+    color: white;
+}
+.description_project_items_btn button:last-child{
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+/* End My_project section css code */
+
+
+
+/* This is Testimonial section css code */
+.flex_main_wrapper{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.testimonial_items{
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    min-width: 19em;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 206, 206);
+    height: 25em;
+    box-shadow: 0 4px 8px 0 rgba(86, 85, 85, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.testimonial_photo_main_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.testimonial_photo{
+    height: 7em;
+    width: 7em;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 100px;
+}
+.testimonial_user_comment{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+.breaker_main_wrapper{
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid red;
+}
+.testimonial_items h3{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.testimonial_items h5{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.testimonial_items:nth-child(2){
+    background-color: black;
+    color: white;
+    .testimonial_photo{
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .breaker_main_wrapper{
+        border: 1px solid rgb(255, 253, 253);
+    }
+}
+/* End Testimonial section css code */
+
+/* This is Contact section css code */
+.contact_main_wrapper{
+    background-color: rgb(223, 241, 244);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 30em;
+    display: flex;
+    align-items: center;
+}
+.contact_left_wrapper{
+    padding-left: 28px;
+    width: 50%;
+    min-width: 20em;
+}
+.contact_left_wrapper form input{
+    padding-left: 10px;
+    height: 3em;
+    width: 60%;
+    max-width: 40em;
+    margin-bottom: 10px;
+    outline: none;
+
+}
+.contact_left_wrapper form textarea{
+    width: 60%;
+    padding-left: 10px;
+}
+.contact_left_wrapper_footer button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 9em;
+    border: none;
+    cursor: pointer;
+}
+.contact_left_wrapper_footer button:hover{
+    color: rgb(252, 182, 53);
+}
+.contact_left_wrapper_social_media_icon{
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+}
+.contact_left_wrapper_social_media_icon_items{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(11, 11, 11);
+    width: 3em;
+    height: 3em;
+}
+.contact_left_wrapper_social_media_icon_items:hover{
+    background-color: rgb(57, 62, 62);
+}
+.contact_left_wrapper_footer{
+    margin-top: 20px;
+    display: flex;
+}
+.contact_right_wrapper{
+    width: 50%;
+}
+.contact_right_wrapper h1{
+    font-size: 3rem;
+}
+.contact_right_wrapper p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.contact_right_wrapper h5{
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+/* End Contact section css code */
+
+/* This is Footer section css code */
+.footer{
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.footer_right_section p:nth-child(2){
+    margin-top: 5px;
+    text-align: end;
+}
+/* End Contact Footer css code */
+
+/* This is media query block */
+/* Extra small devices (phones, 860px and down) */
+@media only screen and (max-width: 860px) {
+    body{
+        background-color: aquaw;
+    }
+    .m_01_first{
+        height: 43em;
+    }    
+    .nav_element a{
+       display: none;
+    }
+    .resum_download_btn{
+        display: none;
+    }
+    .hero_section_main_wrapper{
+        gap: 20px;
+    }
+    .hero_right_wrapper {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+    }
+    .hero_right_wrapper img{
+        width: 60%;
+        height: 15em;
+    }
+    .hero_left_wrapper{
+        width: 100%;
+    }
+    .hero_left_wrapper_top_elemetn h2{
+        font-size: 1.5rem;
+    }
+
+    /* This is MySkill section css code */
+    .skill_anonumus{
+        display: flex;
+        justify-content: center;
+    }
+    .skill_item_first_line{
+        display: none;
+    }
+    .skill_items{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(35, 35, 35);
+        height: 9em;
+        width: 9em;
+    }
+
+    
+    /* This is abouth_me section css code */
+    .abouth_me{
+        height: 72em;
+    }
+    .abouth_me_flex_main_wrapper{
+        flex-wrap: wrap;
+    }
+    .abouth_me_left_wrapper ,.abouth_me_right_wrapper{
+        width: 100%;
+    }
+    .abouth_me_left_wrapper img{
+        width: 100%;
+    }
+    .abouth_me_right_wrapper h2{
+        margin-top: 50px;
+    }
+
+    /* This is My_project section css code */
+    .project_main_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        height: 50em;
+    }
+    .description_project_items {
+        width: 90%;
+    }
+    .project_items_left{
+        width: 100%;
+    }
+    .project_items_right{
+        width: 100%;
+    }
+
+    /* This is Testimonial section css code */
+    .flex_main_wrapper{
+        flex-wrap: wrap;
+    }
+    .testimonial_items{
+        margin-bottom: 30px;
+    }
+
+    /* This is Contact section css code */
+    .contact_main_wrapper{
+        margin-top: 50px;
+        height: 60em;
+        border: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .contact_left_wrapper{
+        width: 100%;
+    }
+    .contact_left_wrapper form input{
+        width: 100%;
+    }
+    .contact_left_wrapper{
+        padding: 0;
+    }
+    .user_input{
+        width: 100%;
+    }
+    .contact_left_wrapper form textarea{
+        width: 100%;
+        padding-left: 10px;
+    }
+    #specioal_m03{
+        display: none;
+    }
+
+
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
